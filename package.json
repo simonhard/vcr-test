@@ -13,7 +13,8 @@
   "scripts": {
     "test": "jest --config './jest.config.js' --verbose",
     "build": "tsc",
-    "prepare": "tsc"
+    "prepare": "tsc",
+    "postinstall": "tsc"
   },
   "author": "epignosisx",
   "repository": {
